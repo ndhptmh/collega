@@ -10,7 +10,7 @@
 ## Cara memakai aplikasi
 1. Setelah melakukan clone project ini, maka lakukan perintah "Composer install"
 2. Setelah itu, copy paste env.example dan ubah nama filenya menjadi .env
-3. Lakukan perintah "php artisan key:generate" setelah itu jalankan "php artisan migrate atau php artisan migrate --seed"
+3. Lakukan perintah "php artisan key:generate" setelah itu jalankan "php artisan migrate --seed"
 4. Jalankan perintah "php artisan serve" Aplikasi siap untuk digunakan.
 5. Untuk mengecek API dapat menggunakan Postman.
 6. Untuk mengecek API quote dapat dilakukan dengan method "post" dan url "http://localhost:8000/api/data" dengan paramater : token = tokencollega123. contoh link nantinya : http://localhost:8000/api/data?token=tokencollega123
